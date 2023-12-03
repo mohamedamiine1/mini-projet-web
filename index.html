@@ -3,83 +3,41 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=0.7">
     <title>Mohammed Amine Hedhili Portfolio</title>
-    <style>
-        body {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            min-height: 100vh;
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-
-        header {
-            text-align: center;
-            padding: 1em 0;
-        }
-
-        nav {
-            text-align: center;
-            margin: 1em 0;
-        }
-
-        nav a {
-            margin: 0 1em;
-            text-decoration: none;
-            color: #333;
-        }
-
-        section {
-            padding: 2em;
-            margin: 20px 0;
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
-
-        footer {
-            text-align: center;
-            padding: 1em 0; 
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-    <header>
-        <h1>Mohammed Amine Hedhili Portfolio</h1>
-        <img src="images/img.png" alt="Image de Profil">
-    </header>
-
-    <nav>
-        <a href="pages secondaires html/apropos.html">A propos de moi</a>
-        <a href="pages secondaires html/contact.html">Contact</a>
-        <a href="pages secondaires html/resume.html">Resume et Carriéres</a>
-        <a href="pages secondaires html/temoignages.html">Temoignages</a>
-        <a href="pages secondaires html/social.html">Réseaux Sociaux</a>
-        <a href="pages secondaires html/blog.html">Blog</a>
-    </nav>
-
-    <section id="introduction">
-        <h2>Introduction</h2>
-        <p>Bienvenue sur mon portfolio ! Je m'appelle Mohammed Amine Hedhili,</p>
-        <p>et je suis ravi de partager avec vous mon parcours et mes expériences.</p>
-        <p>Tout au long de ma carrière, j'ai eu l'opportunité de travailler sur des</p>
-        <p>projets diversifiés et de perfectionner mes compétences dans Data Science.</p>
-        <p>Ce portfolio est une vitrine de mes réalisations professionnelles, de mes</p>
-        <p>compétences et de la passion que je mets dans mon travail. Explorez les</p>
-        <p>différentes sections pour en savoir plus sur moi, mes projets, et la valeur</p>
-        <p>que je peux apporter à votre équipe ou projet. Merci de votre visite !</p>
-    </section>
-
+    <main>
+     
+        <img src="res/img.png">
+        <div id="introduction">
+            
+            <H1 class="title">Bienvenue sur mon portfolio ! Je m'appelle Mohammed Amine Hedhili,</H1>
+            <p>Je suis ravi de partager avec vous mon parcours et mes expériences.
+            Tout au long de ma carrière, j'ai eu l'opportunité de travailler sur des
+            projets diversifiés et de perfectionner mes compétences dans Data Science.
+            Ce portfolio est une vitrine de mes réalisations professionnelles, de mes
+           compétences et de la passion que je mets dans mon travail. Explorez les
+            différentes sections pour en savoir plus sur moi, mes projets, et la valeur
+            que je peux apporter à votre équipe ou projet. Merci de votre visite !</p>
+            <p><strong>Connectez-vous avec moi sur les réseaux sociaux :</strong></p>
+       
+        </div>
+        <div class="nav">
+            <a  href="pages secondaires html/resume1.html"><button type="button" class="choix"><span><i class="fa fa-address-card"></i></span></button></a>
+            <a  href="pages secondaires html/blog.html"><button type="button" class="choix"><span><i class="fa fa-comments"></i></span></button></a>
+            <a  href="pages secondaires html/contact.html"><button type="button" class="choix"><span><i class="fa fa-envelope"></i></span></button></a>
+            <a  href="pages secondaires html/temoignages.html"><button type="button" class="choix"><span><i class="fa fa-star"></i></span></button></a>
+        </div>
+    </main> 
     <footer>
-        <p>&copy; 2023 Mohammed Amine Hedhili</p>
+        <p id="footer">&copy; 2023 Mohammed Amine Hedhili</p>
     </footer>
+   
 </body>
+
 
 </html>

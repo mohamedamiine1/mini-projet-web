@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #161A30;
+}
+
+
+.header {
+  text-align: center;
+  font-size: 42px;
+  font-family: "Bebas Neue";
+  color: white;
+  background-color: #31304D;
+}
+h2{
+    font-size: 38px;
+    font-family: "Bebas Neue";
+    color: white;
+}
+
+.row {
+  display: -webkit-flex;
+  display: flex;
+}
+
+
+.column {
+  padding: 10px;
+  
+}
+
+.column.side {
+   -webkit-flex: 1;
+   -ms-flex: 1;
+   flex: 1;
+   background-color: #31304D;
+   
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+
+
+.column.middle {
+  -webkit-flex: 2;
+  -ms-flex: 2;
+  flex: 2;
+  text-align: center;
+  color: white;
+}
+.experiences{
+    background-color: #161A30;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    padding: 15px;
+    margin: 10px;
+    font-size: 20px;
+    color: #B6BBC4;
+}
+
+
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+  background-color: #31304D;
+  color: white;
+}
+
+li{
+    font-size: 18px;
+    font-family: "roboto";
+    color: #B6BBC4;
+    margin: 5px;
+}
+img{
+    padding: 10px;
+    background-color: #B6BBC4;
+    height: 300px;
+    width: 300px;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+@media (max-width: 600px) {
+  .row {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>Resume</h1>
+</div>
+
+<div class="row">
+  <div class="column side">
+    <h2>Compétences</h2>
+        <p style="padding: 15px; background-color: #161A30 ; border-radius: 15px; color: white; font-size: 20px; font-family: 'Roboto';box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">Analyse de Données</p>
+        <p style="padding: 15px; background-color:#161A30 ; border-radius: 15px; color: white; font-size: 20px; font-family: 'Roboto';box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">Apprentissage Automatique</p>
+        <p  style="padding: 15px; background-color:#161A30 ; border-radius: 15px; color: white; font-size: 20px; font-family: 'Roboto';box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">Programmation Python</p>
+        <p  style="padding: 15px; background-color:#161A30; border-radius: 15px; color: white; font-size: 20px; font-family: 'Roboto';box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">Visualisation de Données</p>
+        <section>
+            <h2>Réalisations</h2>
+            <ul>
+                <li>Récipiendaire du Prix d'Excellence en Science des Données (2022)</li>
+                <li>Publication d'un article de recherche sur "Les Avancées en Analyse Prédictive" dans la Revue de Science des Données</li>
+            </ul>
+        </section>
+    </div>
+  <div class="column middle">
+    <h2>Carrière</h2>
+            <p style="font-style: 'Roboto'; font-size: 18px; line-height: 30px;">Je suis Mohammed Amine Hedhili, un professionnel passionné de Data Science.
+
+                Après avoir effectué mes études au lycée Mohammed El Brahmi El Mourouj 6 pendant 4 années, j'ai continué mon parcours académique à la Faculté des Sciences de Tunis, cycle préparatoire, pour une durée de 2 années. Par la suite, j'ai intégré l'école d'ingénieurs ESPRIT, où j'ai suivi un cycle d'ingénieurs de 3 années avec une spécialité en Data Science.
+                
+                Au cours de ma formation, j'ai eu l'opportunité de mettre en pratique mes connaissances à travers divers projets en Data Science. Certains de ces projets incluent des domaines tels que la vision par ordinateur, l'analyse de sentiments sur les médias sociaux, et la prévision de la demande à l'aide de modèles de Machine Learning. Ces projets m'ont permis de développer des compétences pratiques et de consolider mes connaissances dans le domaine.
+                
+                Mon parcours professionnel inclut des expériences enrichissantes au sein de certaines entreprises renommées, où j'ai contribué à des projets significatifs liés à la Data Science.
+                
+                Je suis déterminé à continuer d'explorer et d'apporter ma contribution au domaine passionnant de la Data Science, en mettant en avant mon expertise acquise au fil de mes études et expériences professionnelles.
+                
+                Merci de prendre le temps de découvrir mon parcours et mes réalisations.</p>
+            <div class="../res/image-container" style="display: flex;">
+                <img src="../res/lycée.png" alt="Lycée Image">
+                <img src="../res/fac.png" alt="Fac Image">
+                <img src="../res/esprit.png" alt="ESPRIT Image">
+            </div>
+  </div>
+  <div class="column side">
+    <h2>Expérience Professionnelle</h2>
+
+    <article class="experiences">
+        <h4>Scientifique des Données chez Tech XYZ</h4>
+        <p>Période : Juin 2021 - Aujourd'hui</p>
+        <p>Description : Mise en œuvre d'initiatives en science des données, développement de modèles prédictifs et collaboration avec des équipes interfonctionnelles pour générer des insights métier.</p>
+    </article>
+
+    <article class="experiences">
+        <h4>Stagiaire de Recherche au Laboratoire d'Analyse de Données</h4>
+        <p>Période : Janvier 2020 - Mai 2021</p>
+        <p>Description : Réalisation de recherches sur les tendances émergentes en science des données, mise en œuvre d'algorithmes et contribution à des articles publiés dans des revues réputées.</p>
+    </article>
+</section>
+
+
+  </div>
+</div>
+
+<div class="footer">
+    <p>&copy; 2023 Mohammed Amine Hedhili</p>
+</div>
+
+</body>
+</html>

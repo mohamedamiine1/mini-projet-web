@@ -1,0 +1,36 @@
+footer{
+    background-color: #31304D;
+    padding: 20px;
+}
+body{
+    background-color: #161A30;
+}
+main{
+    padding: 20px;
+    font-family: "Bebas Neue";
+    color: rgb(212, 210, 215);
+}
+article{
+    background-color: #31304D;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    padding: 15px;
+    margin: 10px;
+    font-size: 24px;
+}
+h2{
+    font-size: 60px;
+    text-align: center;
+}
+p{
+    font-family: "Roboto";
+    color: #B6BBC4;
+    font-size: 24px;
+    text-align: left;
+}
+p:hover{
+    color:white;
+}
+h3{
+    font-size: 38px;
+}
