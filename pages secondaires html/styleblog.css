@@ -34,3 +34,36 @@ p:hover{
 h3{
     font-size: 38px;
 }
+a.button-link {
+    text-decoration: none;
+}
+
+button.accueil-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.accueil-btn:hover {
+    background-color: #2980b9;
+}
+a.return-link {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+a.return-link:hover {
+    transform: translateY(-5px);
+    background-color: #2980b9;
+}
+

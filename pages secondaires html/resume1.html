@@ -4,6 +4,11 @@
 <title>CSS Template</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styleblog.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="scriptblog.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+
 <style>
 * {
   box-sizing: border-box;
@@ -101,6 +106,52 @@ img{
 }
 </style>
 </head>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+      anime({
+          targets: '.header',
+          translateY: [-20, 0],
+          opacity: [0, 1],
+          duration: 1000,
+          easing: 'easeInOutQuad',
+      });
+      anime({
+          targets: '.column.side',
+          translateX: [-20, 0],
+          opacity: [0, 1],
+          duration: 1000,
+          easing: 'easeInOutQuad',
+          delay: 200
+      });
+
+      anime({
+          targets: '.column.middle',
+          translateX: [20, 0],
+          opacity: [0, 1],
+          duration: 1000,
+          easing: 'easeInOutQuad',
+          delay: 200
+      });
+
+      anime({
+          targets: '.experiences',
+          translateY: [20, 0],
+          opacity: [0, 1],
+          duration: 1000,
+          easing: 'easeInOutQuad',
+          delay: 400
+      });
+
+      anime({
+          targets: '.footer',
+          translateY: [20, 0],
+          opacity: [0, 1],
+          duration: 1000,
+          easing: 'easeInOutQuad',
+          delay: 600
+      });
+  });
+</script>
 <body>
 <div class="header">
   <h1>Resume</h1>
@@ -154,6 +205,7 @@ img{
         <p>Période : Janvier 2020 - Mai 2021</p>
         <p>Description : Réalisation de recherches sur les tendances émergentes en science des données, mise en œuvre d'algorithmes et contribution à des articles publiés dans des revues réputées.</p>
     </article>
+    <p><a href="../index.html" class="return-link">Retour à la page d'accueil</a></p>
 </section>
 
 
